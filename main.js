@@ -33,3 +33,9 @@ document.getElementById('box-3').addEventListener('click', function(){
 	document.getElementById('box-results').append(newEl);
 	document.getElementById('start-over').classList.remove('hidden');
 }, false);
+
+/* Start Over button clicked - clear messages */
+document.getElementById('start-over').addEventListener('click', function(e){
+	e.preventDefault();
+	location.reload();
+}, false);
