@@ -85,6 +85,9 @@ section {
   color: #6600cf;
   justify-content: center;
 }
+.hidden {
+  display: none;
+}
 
 /* Tablet and Desktop view */
 @media screen and (min-width: 720px) {
