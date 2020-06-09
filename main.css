@@ -81,12 +81,20 @@ section {
   display: flex;
   flex: 1;
   flex-basis: 100%;
-  font-size: 1.5rem;
+  font-size: 1.85rem;
   color: #6600cf;
   justify-content: center;
 }
 .hidden {
-  display: none;
+  display: none !important;
+}
+#start-over {
+  display: flex;
+  flex: 1;
+  flex-basis: 100%;
+  justify-content: center;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
 }
 
 /* Tablet and Desktop view */
