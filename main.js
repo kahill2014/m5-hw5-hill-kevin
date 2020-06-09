@@ -17,16 +17,19 @@ var newEl = document.createElement('p');
 document.getElementById('box-1').addEventListener('click', function(){
 	newEl.innerText = 'Oooh - so close, but no cigar';
 	document.getElementById('box-results').append(newEl);
+	document.getElementById('start-over').classList.remove('hidden');
 }, false);
 
 /* Box 2 clicked - display message */
 document.getElementById('box-2').addEventListener('click', function(){
 	newEl.innerText = 'DING DING DING - We have a winner';
 	document.getElementById('box-results').append(newEl);
+	document.getElementById('start-over').classList.remove('hidden');
 }, false);
 
 /* Box 3 clicked - display message */
 document.getElementById('box-3').addEventListener('click', function(){
 	newEl.innerText = 'Oops, butter luck next time';
 	document.getElementById('box-results').append(newEl);
+	document.getElementById('start-over').classList.remove('hidden');
 }, false);
