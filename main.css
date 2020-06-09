@@ -71,6 +71,9 @@ section {
 #box-3 {
   background-color: #7FFF30;
 }
+.hover-box {
+  background-color: #f7b79f !important;
+}
 
 /* Tablet and Desktop view */
 @media screen and (min-width: 720px) {
