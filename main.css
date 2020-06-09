@@ -74,6 +74,17 @@ section {
 .hover-box {
   background-color: #f7b79f !important;
 }
+#box-results {
+  flex-wrap: wrap;
+}
+#box-results p {
+  display: flex;
+  flex: 1;
+  flex-basis: 100%;
+  font-size: 1.5rem;
+  color: #6600cf;
+  justify-content: center;
+}
 
 /* Tablet and Desktop view */
 @media screen and (min-width: 720px) {
