@@ -18,6 +18,12 @@ main {
   justify-content: center;
 }
 h1 {
+  display: flex;
+  flex: 1;
+  flex-basis: 100%;
+  justify-content: center;
+  text-align: center;
+  line-height: 3.5rem;
   font-weight: 600;
   color: #fff;
 }
@@ -27,7 +33,7 @@ h2 {
   flex-basis: 100%;
   font-weight: 600;
   color: #6600cf;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-align: center;
   max-width: 85%;
   padding-top: 3rem;
@@ -68,5 +74,42 @@ section {
 
 /* Tablet and Desktop view */
 @media screen and (min-width: 720px) {
+  section {
+    flex-wrap: nowrap;
+  }
+  h1 {
+    font-size: 4rem;
+    max-width: 20%;
+  }
+  h2 {
+    font-size: 1.8rem;
+    padding-top: 0;
+  }
+  .box {
+    flex: .33;
+    flex-basis: 33%;
+    max-width: 33%;
+    margin: 1rem 2rem;
+    padding: 1rem;
+  }
+}
 
+/* Small Desktop view */
+@media screen and (min-width: 1080px) {
+  section {
+    max-width: 85%;
+  }
+  .box {
+    padding: 2rem;
+  }
+}
+
+/* Large Desktop view */
+@media screen and (min-width: 1220px) {
+  section {
+    max-width: 75%;
+  }
+  .box {
+    padding: 2.85rem;
+  }
 }
